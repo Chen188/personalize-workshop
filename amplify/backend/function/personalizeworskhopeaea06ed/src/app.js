@@ -31,7 +31,7 @@ app.use(function(req, res, next) {
 });
 
 // change the value below to your campaign Arn
-var campaignArn = 'arn:aws:personalize:us-west-2:927378468065:campaign/personalize-workshop';
+var campaignArn = 'arn:aws:personalize:us-west-2:022346938362:campaign/personalize-workshop-campaign';
 
 
 

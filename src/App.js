@@ -160,7 +160,7 @@ class App extends Component {
    * 
    */
   getMoviesPreDeployedEndPoint(){
-    const url = 'https://1347dfqxnc.execute-api.us-west-2.amazonaws.com/dev/items/?userId=' + this.state.userId;
+    const url = 'https://fgpi9q7xx2.execute-api.us-west-2.amazonaws.com/pworkshop/items/?userId=' + this.state.userId;
     axios.get(url).then(response => response.data)
     .then((payload) => {
       
